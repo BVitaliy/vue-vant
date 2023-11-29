@@ -1,0 +1,51 @@
+@import "./base.css";
+
+#app {
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 50px 15px;
+}
+main .van-index-anchor {
+  font-size: 20px;
+  padding-left: 0;
+  margin: 50px 0 10px;
+}
+img {
+  max-width: 100%;
+  margin: 15px 0;
+}
+main .van-index-bar__sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  transform: none;
+  transform: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  left: 0;
+  padding: 15px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+}
+main .van-index-bar__index {
+  font-size: 15px;
+}
